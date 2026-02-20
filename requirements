@@ -5,3 +5,8 @@ fastapi
 uvicorn
 pydantic
 typing
+asyncio
+os
+datetime
+threading
+http.server
