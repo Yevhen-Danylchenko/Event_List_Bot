@@ -1,12 +1,2 @@
-asyncio
-aiohttp
 aiogram
-fastapi
-uvicorn
-pydantic
-typing
-asyncio
-os
-datetime
-threading
-http.server
+python-dotenv
