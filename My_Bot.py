@@ -1,12 +1,15 @@
 import asyncio
+import os
+
 import aiohttp
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
+from dotenv import load_dotenv
 
-API_TOKEN = "8021112148:AAHL4BJpmTxJVk_Gqgi3Z8w9N1fLaRnoCVQ"
+load_dotenv()
+API_TOKEN = os.getenv("BOT_TOKEN")
 API_URL = "http://127.0.0.1:8000"
-
 
 my_bot = Bot(token=API_TOKEN)
 
