@@ -1,0 +1,7 @@
+asyncio
+aiohttp
+aiogram
+fastapi
+uvicorn
+pydantic
+typing
